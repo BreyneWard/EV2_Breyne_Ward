@@ -1,0 +1,15 @@
+D:\multimedi\Cscherp\EV2_Breyne_Ward\bin\Debug\net6.0\EV2_Breyne_Ward.exe
+D:\multimedi\Cscherp\EV2_Breyne_Ward\bin\Debug\net6.0\EV2_Breyne_Ward.deps.json
+D:\multimedi\Cscherp\EV2_Breyne_Ward\bin\Debug\net6.0\EV2_Breyne_Ward.runtimeconfig.json
+D:\multimedi\Cscherp\EV2_Breyne_Ward\bin\Debug\net6.0\EV2_Breyne_Ward.dll
+D:\multimedi\Cscherp\EV2_Breyne_Ward\bin\Debug\net6.0\EV2_Breyne_Ward.pdb
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\EV2_Breyne_Ward.csproj.AssemblyReference.cache
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\EV2_Breyne_Ward.GeneratedMSBuildEditorConfig.editorconfig
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\EV2_Breyne_Ward.AssemblyInfoInputs.cache
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\EV2_Breyne_Ward.AssemblyInfo.cs
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\EV2_Breyne_Ward.csproj.CoreCompileInputs.cache
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\EV2_Breyne_Ward.dll
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\refint\EV2_Breyne_Ward.dll
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\EV2_Breyne_Ward.pdb
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\EV2_Breyne_Ward.genruntimeconfig.cache
+D:\multimedi\Cscherp\EV2_Breyne_Ward\obj\Debug\net6.0\ref\EV2_Breyne_Ward.dll
