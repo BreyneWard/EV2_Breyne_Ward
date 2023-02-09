@@ -18,13 +18,7 @@ class Program
     public static double duurInMS;
     static void Main(string[] args)
     {
-        //TEST 
-        // for (int i = 0; i < 100; i++)
-        // {
-        //     int result = generateRandomParkeerplaats();
-        //     Console.WriteLine(result);
-        // }
-
+        
         // initialize parkeerplaatsen
         SetStatusParkeerplaatsen(parkingVrij);
         PrintParkeerplaatsen();
@@ -33,7 +27,8 @@ class Program
         while (true)
         {
 
-            int generatedNumber = GenerateRandomNumber();
+            int generatedNumber = GenerateRandomNumber(-2,0);
+            generatedNumber = Math.Abs(generatedNumber);
             if (generatedNumber == 1)
             {
                 Console.WriteLine("Binnenrijden called");
@@ -68,17 +63,6 @@ class Program
         Console.WriteLine("------------------------------");
     }
 
-    public static int GenerateRandomNumber()
-    {
-        int randomNumber = gen.Next(-2, 0);
-        int absValueOfRandNumber = Math.Abs(randomNumber);
-        //TEST
-        // Console.WriteLine("Random number: " + randomNumber);
-        // Console.WriteLine("Absolute value: " + absValueOfRandNumber);
-        return absValueOfRandNumber;
-
-    }
-
     public static void AutoRijdtBinnen()
     {
         bool volzet = ParkingVolzet();
@@ -87,7 +71,7 @@ class Program
         {
             do
             {
-                parkeerplaats = generateRandomParkeerplaats();
+                parkeerplaats = GenerateRandomNumber(0,10);
             }
             while (parkeerplaatsen[parkeerplaats] == parkingBezet);
 
@@ -128,7 +112,7 @@ class Program
         {
             do
             {
-                parkeerplaats = generateRandomParkeerplaats();
+                parkeerplaats = GenerateRandomNumber(0,10);
             }
             while (parkeerplaatsen[parkeerplaats] == parkingVrij);
 
@@ -163,12 +147,6 @@ class Program
 
 
         return resultParkingVolzet;
-    }
-
-    public static int generateRandomParkeerplaats()
-    {
-        int randomNumber;
-        return randomNumber = gen.Next(0, 10);
     }
 
     public static bool GeparkeerdeAutoAanwezig()
@@ -244,6 +222,12 @@ class Program
             Console.WriteLine("File already exists.Nothing to do here");
         }
 
+    }
+
+    public static int GenerateRandomNumber(int minValueIn, int maxValueIn)
+    {
+        int randomNumber;
+        return randomNumber = gen.Next(minValueIn, maxValueIn);
     }
 
 }
